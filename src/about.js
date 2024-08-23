@@ -25,6 +25,6 @@ homeContainer.appendChild(homeImage);
 // Home Text
 const homeText = document.createElement("p");
 homeText.className = "home-text";
-homeText.innerHTML = "We strive for perfection.";
+homeText.innerHTML = "We strive for perfection and cheap prices.";
 homeContainer.appendChild(homeText);
 }
