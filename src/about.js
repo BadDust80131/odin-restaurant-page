@@ -1,6 +1,9 @@
 import logo from "./logo.png"
 
+export function about () {
+    // Clear Previous
 const content  = document.querySelector("#content");
+content.innerHTML = "";
 
 // Home Container
 const homeContainer = document.createElement("div")
@@ -10,7 +13,7 @@ content.appendChild(homeContainer);
 // Home Title
 const homeTitle = document.createElement("h1");
 homeTitle.className = "home-title";
-homeTitle.innerHTML = "Welcome to Master Chef.";
+homeTitle.innerHTML = "About Us";
 homeContainer.appendChild(homeTitle);
 
 // Home Image
@@ -22,5 +25,6 @@ homeContainer.appendChild(homeImage);
 // Home Text
 const homeText = document.createElement("p");
 homeText.className = "home-text";
-homeText.innerHTML = "We serve the best food in town! Our ingredients are fresh, our chefs are world-class, and the atmosphere is simply unbeatable. Come visit us!";
+homeText.innerHTML = "We strive for perfection.";
 homeContainer.appendChild(homeText);
+}
