@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-text {
+    max-width: 40ch;
+}
+
+.home-image {
+    width: 200px;
+    height: 200px;
+}
