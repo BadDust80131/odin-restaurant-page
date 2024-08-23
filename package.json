@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack",
     "dev": "webpack serve",
-    "deploy": "git add -f dist && git commit -m 'Deploying to gh-pages' && git pull origin gh-pages --rebase && git subtree push --prefix dist origin gh-pages --force"
+    "deploy": "git add -f dist && git commit -m 'Deploying to gh-pages' && git pull origin gh-pages --rebase && git subtree push --prefix dist origin gh-pages"
   },
   "author": "",
   "license": "ISC",
